@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Rajdhani;
+  src: url("./assets/fonts/Rajdhani-Bold.ttf");
+}
+@font-face {
+  font-family: Raleway;
+  src: url("./assets//fonts/Raleway-VariableFont_wght.ttf");
+}
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.flower {
+  height: 10rem;
+  width: 10rem;
+  animation: rotate 10s linear infinite;
+}
+
+.flower:hover {
+  animation: rotate 5s linear infinite;
+} */
+
+.main {
+  position: relative;
+}
+
+.angle_container_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.agnle_container_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.angle {
+  margin-top: -40px;
+  margin-left: -10px;
+  height: 500px;
+  width: 500px;
+}
+
+.flipped {
+  transform: scaleX(-1);
+  margin-top: -40px;
+  height: 500px;
+  width: 500px;
+}
+
+.tops {
+  width: 300px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: -100px;
+}
+
+.title_bottom_deco {
+  width: 300px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: -100px;
+  transform: scaleY(-1);
+}
+
+.restaurant_name {
+  color: #ffdc83;
+  font-size: larger;
+  display: inline;
+  z-index: 4;
+  font-size: 3.5rem;
+  position: relative;
+  font-family: Raleway;
+  font-weight: bold;
+}
+.restaurant_desc {
+  color: #ffdc83;
+  font-size: larger;
+  display: inline;
+  z-index: 4;
+  font-size: 3.5rem;
+  position: relative;
+  font-family: Raleway;
+  
+}
+img {
+  overflow: hidden;
+}
+.res_title {
+  margin-top: -290px;
+  margin-left: 630px;
+  align-items: center;
+}
