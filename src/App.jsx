@@ -16,16 +16,18 @@ const App = () => {
       <div className="middle_deco">
         <img className="tops" src={tops} alt="tops_deco" />
       </div>
+
       <div className="middle_deco">
         <img className="title_bottom_deco" src={tops} alt="tops_deco" />
       </div>
+
       <div className="res_title">
         <p className="restaurant_name">DAAWAT </p>
-        {/* <p className="restaurant_desc">FAMILY RESTAURANT</p> */}
       </div>
 
-            
-
+      <div className="res_desc_container">
+        <p className="restaurant_desc">FAMILY RESTAURANT</p>
+      </div>
     </div>
   );
 };
