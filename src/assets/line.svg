@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect x="-57.784" y="-45.957" width="20.305" height="20.305" style="fill: rgb(255, 220, 131); stroke: rgb(255, 220, 131); transform-origin: -47.6315px -35.8045px;" transform="matrix(-0.707107007504, -0.707107007504, 0.707107007504, -0.707107007504, 297.457858859734, 122.205726385871)"/>
+  <path d="M 76.875 71.418 H 78.693 V 84.811 H 92.626 V 86.559 H 78.693 V 99.952 H 76.875 V 86.559 H 62.942 V 84.811 H 76.875 Z" style="fill: rgb(255, 220, 131); stroke: rgb(255, 220, 131); transform-origin: 77.784px 85.685px;" transform="matrix(0.707107007504, 0.707107007504, -0.707107007504, 0.707107007504, 172.544940817756, 170.022385366015)" bx:shape="cross 62.942 71.418 29.684 28.534 1.748 1.818 0.5 1@8e81feec"/>
+  <line style="fill: rgb(255, 220, 131); paint-order: fill; stroke-width: 3px; stroke: rgb(255, 220, 131);" x1="249.795" y1="100.057" x2="250.352" y2="254.546" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -5.684341886080802e-14, 0)"/>
+  <line style="fill: rgb(255, 220, 131); stroke-width: 3px; paint-order: stroke; stroke: rgb(255, 220, 131);" x1="250.345" y1="256.7" x2="250.902" y2="411.189" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -5.684341886080802e-14, 0)"/>
+  <rect x="-57.784" y="-45.957" width="20.305" height="20.305" style="fill: rgb(255, 220, 131); paint-order: fill; stroke: rgb(255, 220, 131); transform-origin: -47.631px -35.804px;" transform="matrix(-0.707107007504, -0.707107007504, 0.707107007504, -0.707107007504, 298.464092090068, 451.811105260473)"/>
+</svg>

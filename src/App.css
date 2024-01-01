@@ -6,90 +6,83 @@
   font-family: Raleway;
   src: url("./assets//fonts/Raleway-VariableFont_wght.ttf");
 }
-/* @keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.flower {
-  height: 10rem;
-  width: 10rem;
-  animation: rotate 10s linear infinite;
-}
-
-.flower:hover {
-  animation: rotate 5s linear infinite;
-} */
-
 .main {
   position: relative;
 }
-
 .angle_container_left {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 1%;
+  left: 12%;
 }
-
+.angle {
+  margin-top: -6vh;
+  margin-left: -10px;
+  height: 70vh;
+  width: 33vw;
+}
 .agnle_container_right {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 1%;
+  right: 12%;
 }
-
-.angle {
-  margin-top: -40px;
-  margin-left: -10px;
-  height: 500px;
-  width: 500px;
-}
-
 .flipped {
   transform: scaleX(-1);
-  margin-top: -40px;
-  height: 500px;
-  width: 500px;
+  margin-top: -6vh;
+  height: 70vh;
+  width: 33vw;
 }
 
-.tops {
-  width: 300px;
-  height: 300px;
-  margin-left: 600px;
-  margin-top: -100px;
+.middle_deco_container {
+  display: inline-block;
+  margin-left: 39vw;
+  top: 0;
+  margin-top: -13vh;
+}
+.top {
+  width: 20vw;
+  height: 20vw;
 }
 
-.title_bottom_deco {
-  width: 300px;
-  height: 300px;
-  margin-left: 600px;
-  margin-top: -100px;
+.bottom_deco_container {
+  display: inline-block;
+  margin-left: 39vw;
+  margin-top: -30vh;
+}
+.bottom {
+  width: 20vw;
+  height: 20vw;
   transform: scaleY(-1);
 }
-
+.res_title_container {
+    
+  margin-top: -14vh;
+  margin-left: 630px;
+  align-items: center;
+  border: white 2px solid;
+  display: inline-block;
+}
 .restaurant_name {
+  border: solid red 1px;
   color: #ffdc83;
-  font-size: larger;
-  display: inline;
+  font-size: 3.5vw;
+  display: inline-block;
   z-index: 4;
-  font-size: 3.5rem;
   position: relative;
   font-family: Raleway;
   font-weight: bold;
+  mix-blend-mode: difference;
 }
 .res_desc_container {
-  color: #ffdc83;
-  font-size: larger;
-  /* display: inline; */
+  color: white;
+  border: 1px solid blue;
+  font-size: 3.5vw;
   display: inline-block;
-  margin-top: 50;
+  top: -4vh;
   z-index: 4;
   font-size: 2.5rem;
   position: relative;
   font-family: Raleway;
-  margin-left: 550px;
+  margin-left: 80vh;
   margin-top: -15;
   mix-blend-mode: difference;
 }
@@ -97,10 +90,22 @@ img {
   overflow: hidden;
   mix-blend-mode: difference;
 }
-.res_title {
-  margin-top: -310px;
-  margin-left: 630px;
-  align-items: center;
+.line_left {
+  height: 300px;
+  top: 400px;
 }
-.res_title {
+.line_right {
+  height: 300px;
+}
+.right_line_container {
+  position: absolute;
+  top: 400px;
+  right: 91px;
+  mix-blend-mode: difference;
+}
+.left_line_container {
+  position: absolute;
+  top: 400px;
+  left: 81px;
+  mix-blend-mode: difference;
 }
